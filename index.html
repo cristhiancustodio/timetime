@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Regresiva - Navidad 2025</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <div class="decoration tree-left">🎄</div>
+    <div class="decoration tree-right">🎄</div>
+    <div class="decoration star-left">⭐</div>
+    <div class="decoration star-right">🎁</div>
+
+    <div class="container">
+        <h1>🎅 Cuenta Regresiva 🎅</h1>
+        <p class="subtitle">¡Faltan para Navidad!</p>
+
+        <div class="countdown">
+            <div class="time-unit">
+                <div class="time-value" id="days">00</div>
+                <div class="time-label">Días</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="hours">00</div>
+                <div class="time-label">Horas</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="minutes">00</div>
+                <div class="time-label">Minutos</div>
+            </div>
+            <div class="time-unit">
+                <div class="time-value" id="seconds">00</div>
+                <div class="time-label">Segundos</div>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-label">Progreso del Año 🎄</div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progressBar">
+                    <span class="progress-percentage" id="progressPercentage">0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./public/js/script.js"></script>
+</body>
+
+</html>
